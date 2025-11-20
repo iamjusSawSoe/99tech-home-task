@@ -1,16 +1,33 @@
-# React + Vite
+# Currency Exchanger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Currency Exchanger application allows users to convert amounts between different currencies using real-time exchange rates. It provides a simple and intuitive interface for users to select their desired currencies and view the converted amount.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Real-time currency conversion
+- Support for multiple currencies
+- User-friendly interface
+- Historical exchange rate data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+To install the Currency Exchanger application, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/currency-exchanger.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd currency-exchanger
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the application, run the following command:
